@@ -8,6 +8,13 @@ span-level detector from frozen generator backbones so that the effect of
 harmful-span, intensity, and target guidance can be examined without treating
 the framework as a state-of-the-art claim.
 
+| Resource | Status |
+|---|---|
+| Paper | Public archival link pending |
+| Code | Detector training and guided-generation pipeline available |
+| Data | Use the official upstream datasets described in [DATA.md](DATA.md) |
+| License | [MIT](LICENSE) for code; upstream terms apply to data and models |
+
 ## Research question
 
 When does explicit span-level guidance improve detoxification, and when does it
@@ -74,3 +81,8 @@ The focused guided-versus-unguided analysis is maintained separately in
 
 Code is released under the [MIT License](LICENSE). External datasets and models
 retain their original licenses.
+
+## Citation
+
+Archival citation metadata will be added when a public paper record is
+available. Until then, please reference this repository by its title and URL.
