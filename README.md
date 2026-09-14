@@ -2,6 +2,8 @@
 
 **Awareness-Enhanced Guidance for Iterative Safeguard**
 
+[![arXiv](https://img.shields.io/badge/arXiv-2607.17713-b31b1b)](https://arxiv.org/abs/2607.17713)
+
 AEGIS is an exploratory framework for studying span-guided multilingual text
 detoxification across English, Mandarin Chinese, and Korean. It separates a
 span-level detector from frozen generator backbones so that the effect of
@@ -10,7 +12,7 @@ the framework as a state-of-the-art claim.
 
 | Resource | Status |
 |---|---|
-| Paper | Public archival link pending |
+| Paper | [arXiv:2607.17713](https://arxiv.org/abs/2607.17713) |
 | Code | Detector training and guided-generation pipeline available |
 | Data | Use the official upstream datasets described in [DATA.md](DATA.md) |
 | License | [MIT](LICENSE) for code; upstream terms apply to data and models |
@@ -84,5 +86,13 @@ retain their original licenses.
 
 ## Citation
 
-Archival citation metadata will be added when a public paper record is
-available. Until then, please reference this repository by its title and URL.
+```bibtex
+@article{park2026aegis,
+  title   = {{AEGIS}: Awareness-Enhanced Guidance for Iterative Safeguard},
+  author  = {Park, Kyungwon and Lee, Sangmin and Chon, Heejae and Kang, Hyungu},
+  journal = {arXiv preprint arXiv:2607.17713},
+  year    = {2026},
+  doi     = {10.48550/arXiv.2607.17713},
+  url     = {https://arxiv.org/abs/2607.17713}
+}
+```
